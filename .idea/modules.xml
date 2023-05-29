@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ann/ann.iml" filepath="$PROJECT_DIR$/ann/ann.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timelineranker/client/client.iml" filepath="$PROJECT_DIR$/timelineranker/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/follow-recommendations-service/common/common.iml" filepath="$PROJECT_DIR$/follow-recommendations-service/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timelineranker/common/common1.iml" filepath="$PROJECT_DIR$/timelineranker/common/common1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-mixer/component-library/component-library.iml" filepath="$PROJECT_DIR$/product-mixer/component-library/component-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-mixer/core/core.iml" filepath="$PROJECT_DIR$/product-mixer/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cr-mixer/cr-mixer.iml" filepath="$PROJECT_DIR$/cr-mixer/cr-mixer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/graph-feature-service/graph-feature-service.iml" filepath="$PROJECT_DIR$/graph-feature-service/graph-feature-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/home-mixer/home-mixer.iml" filepath="$PROJECT_DIR$/home-mixer/home-mixer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unified_user_actions/enricher/src/main/main.iml" filepath="$PROJECT_DIR$/unified_user_actions/enricher/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unified_user_actions/adapter/src/main/main1.iml" filepath="$PROJECT_DIR$/unified_user_actions/adapter/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unified_user_actions/client/src/main/main2.iml" filepath="$PROJECT_DIR$/unified_user_actions/client/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unified_user_actions/kafka/src/main/main3.iml" filepath="$PROJECT_DIR$/unified_user_actions/kafka/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timelineranker/server/src/main/main4.iml" filepath="$PROJECT_DIR$/timelineranker/server/src/main/main4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unified_user_actions/service/src/main/main5.iml" filepath="$PROJECT_DIR$/unified_user_actions/service/src/main/main5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recos-injector/recos-injector.iml" filepath="$PROJECT_DIR$/recos-injector/recos-injector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timelineranker/server/src/main/scala/scala.iml" filepath="$PROJECT_DIR$/timelineranker/server/src/main/scala/scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/follow-recommendations-service/server/server.iml" filepath="$PROJECT_DIR$/follow-recommendations-service/server/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-mixer/shared-library/shared-library.iml" filepath="$PROJECT_DIR$/product-mixer/shared-library/shared-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simclusters-ann/simclusters-ann.iml" filepath="$PROJECT_DIR$/simclusters-ann/simclusters-ann.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unified_user_actions/enricher/src/test/test.iml" filepath="$PROJECT_DIR$/unified_user_actions/enricher/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unified_user_actions/kafka/src/test/test1.iml" filepath="$PROJECT_DIR$/unified_user_actions/kafka/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unified_user_actions/client/src/test/test2.iml" filepath="$PROJECT_DIR$/unified_user_actions/client/src/test/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unified_user_actions/service/src/test/test3.iml" filepath="$PROJECT_DIR$/unified_user_actions/service/src/test/test3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unified_user_actions/adapter/src/test/test4.iml" filepath="$PROJECT_DIR$/unified_user_actions/adapter/src/test/test4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/the-algorithm.iml" filepath="$PROJECT_DIR$/src/the-algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timelines/timelines.iml" filepath="$PROJECT_DIR$/timelines/timelines.iml" />
+      <module fileurl="file://$PROJECT_DIR$/topic-social-proof/topic-social-proof.iml" filepath="$PROJECT_DIR$/topic-social-proof/topic-social-proof.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-signal-service/user-signal-service.iml" filepath="$PROJECT_DIR$/user-signal-service/user-signal-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/visibilitylib/visibilitylib.iml" filepath="$PROJECT_DIR$/visibilitylib/visibilitylib.iml" />
+    </modules>
+  </component>
+</project>

@@ -88,7 +88,7 @@ object TweetJob {
             val tweetId: SimClusterEntity = SimClusterEntity.TweetId(favEvent.tweetId)
 
             (tweetId, clusterBucket) -> SimClustersInterestedInUtil
-              .buildClusterWithScores(
+              .buildClusterWithScores(  // 对每一个cluster进行time decay。计算出新的score
                 scores,
                 timestamp,
                 profile.favScoreThresholdForUserInterest

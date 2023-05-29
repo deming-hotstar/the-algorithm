@@ -62,11 +62,11 @@ object UpdateKnownFor20M145K2020 extends ScheduledExecutionApp {
       case (_, mode) =>
         implicit def valueCodec: BinaryScalaCodec[Candidates] = BinaryScalaCodec(Candidates)
         // Step - 1 (DataProcessing): Parameters for getting mapped indices for user-ids
-        val minActiveFollowers = args.int("minActiveFollowers", 400)
+        val minActiveFollowers = args.int("minActiveFollowers", 400)  // threshold to be a producer
         val topK = args.int("topK", 20000000)
 
         // Step - 2 (DataProcessing): Parameters to remove users not in the topK most followed users from simsGraph
-        val maxNeighbors = args.int("maxNeighbors", 400)
+        val maxNeighbors = args.int("maxNeighbors", 400)  // only use top 400 neighbors in proposal function
 
         // Step - 3 (Final Clustering): Parameters to run the clustering algorithm
         /* squareWeightEnable is a boolean flag that changes the edge weights obtained from the
@@ -119,7 +119,7 @@ object UpdateKnownFor20M145K2020 extends ScheduledExecutionApp {
                     D.Suffix(InternalDataPaths.RawKnownFor2020Path)
                   ),
                 UpdateKnownForSBFRunner
-                  .evaluateUpdatedKnownFor(updateKnownFor, previousKnownFor)
+                  .evaluateUpdatedKnownFor(updateKnownFor, previousKnownFor)  // evaluate and persist
                   .flatMap { emailText =>
                     Util
                       .sendEmail(

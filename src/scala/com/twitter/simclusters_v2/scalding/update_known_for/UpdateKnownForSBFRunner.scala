@@ -128,7 +128,7 @@ object UpdateKnownForSBFRunner {
               maxEpochsForClustering,
               squareWeightsEnable,
               wtCoeff
-            )
+            )  // core algorithm
             clusteringResults
               .flatMap { updatedKnownFor =>
                 // convert the list of updated KnownFor to a TypedPipe
